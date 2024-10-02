@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ff6600;
+  color: white;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#cart {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+}
+
+#checkout {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#adminPanel {
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#adminPanel input {
+  margin: 10px 0;
+  padding: 5px;
+}
